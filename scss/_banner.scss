@@ -6,7 +6,7 @@
     min-height: 780px;
     display: flex;
     position: relative;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; // background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/cover.svg) no-repeat scroll center; // background-size: cover;
     .banner_inner {
         position: relative;
         z-index: 10;
@@ -105,7 +105,7 @@
         min-height: 780px;
         z-index: 1;
         .overlay {
-            background: url(../img/banner/banner-2.jpg) no-repeat center center;
+            background: url(/img/cover.svg) no-repeat center center;
             opacity: 0.5;
             height: 125%;
             position: absolute;
@@ -140,7 +140,7 @@
 
 .banner_area {
     position: relative;
-    background: url(../img/banner/banner.jpg) no-repeat center center;
+    background: url(/img/cover.svg) no-repeat center center;
     z-index: 1;
     min-height: 392px;
     padding-top: 0 !important;
@@ -204,6 +204,7 @@
         }
     }
 }
+
 
 /* End Home Banner Area css
 ============================================================================================ */
