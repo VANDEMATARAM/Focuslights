@@ -1,6 +1,7 @@
 <?php
 
-$to = "vandemataram1705@gmail.com";
+
+/*$to = "vandemataram1705@gmail.com";
 $subject = "Registration";
 
 $body= $_REQUEST['name'];
@@ -21,5 +22,7 @@ else
 {
     echo "failed";
 }
+*/
 
+echo "sent sucessfully"
 ?>
